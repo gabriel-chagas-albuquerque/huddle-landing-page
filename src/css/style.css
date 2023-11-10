@@ -29,6 +29,7 @@ section{
 }
 .illustration {
     grid-area: illustration;
+    height:480px;
 }
 
 .illustration img{
@@ -40,6 +41,8 @@ section{
 .content {
     grid-area: content;
     margin:0 50px;
+    padding-bottom: 0px;
+    height: 480px;
 }
 
 .content h1 {
