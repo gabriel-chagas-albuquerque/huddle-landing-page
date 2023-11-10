@@ -1,0 +1,98 @@
+
+main {
+    background: url(../images/bg-desktop.svg) center center no-repeat;
+    background-size: cover;
+    background-color: var(--violet);
+    color: var(--color-letter);
+    display: grid;
+    grid-template-areas: "header header"
+        "illustration content"
+        "footer footer";
+    grid-template-columns:minmax(400px, 1fr) 1fr;
+    padding: 30px 20px 30px 10px;
+    max-width: 100%;
+}
+
+.header {
+    grid-area: header;
+    margin-bottom: 25px;
+    max-width: 100%;
+}
+
+.header img{
+    width: 215px;
+}
+
+section{
+    max-height: 500px;
+    padding-bottom: 20px;
+}
+.illustration {
+    grid-area: illustration;
+}
+
+.illustration img{
+
+    width: 100%;
+}
+
+
+.content {
+    grid-area: content;
+    margin:0 50px;
+}
+
+.content h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 40px;
+    padding-right: 10px;
+}
+
+.content p {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 40px;
+   text-align: justify;
+}
+
+.content .btn-register{
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 50px;
+    color:var(--violet);
+    background-color: #fff;
+    border-radius: 25px;
+    font-size: 18px;
+    transition: 0.3s ease-in-out;
+}
+
+.content .btn-register:hover{
+    background-color: var(--soft-magenta);
+    color:#fff;
+}
+.footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.footer a i{
+    padding:8px;
+    margin:0 10px;
+    border:1px solid white;
+    font-size: 18px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;   
+}
+
+.footer a i.fa-facebook-f{
+    padding:8px 12px;
+}
+
+.footer a i:hover{
+    border:1px solid var(--soft-magenta);
+    color:var(--soft-magenta);
+}
