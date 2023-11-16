@@ -1,5 +1,6 @@
 :root{
     --violet:hsl(257, 40%, 49%);
     --soft-magenta: hsl(300, 69%, 71%);
+    --hard-magenta: hsl(300, 65%, 56%);
     --color-letter:#fff;
 }
